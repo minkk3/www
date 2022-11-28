@@ -3,7 +3,7 @@
 	$table = "concert"; //이부분만 변경해주면 됨(테이블 만든 후 테이블명만 바꿔줌)
 ?>
 <!DOCTYPE HTML>
-<html>
+<html lang="ko">
 
 <head>
 	<meta charset="utf-8">
