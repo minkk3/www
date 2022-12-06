@@ -1,5 +1,5 @@
-/* 공지사항- 일반게시판 */
 @charset "utf-8";
+/* 공지사항- 일반게시판 */
 
 .contentArea>p {
     font-size: 1.5em;
@@ -60,25 +60,25 @@ button[type="submit"] {
     border-top: 2px solid #aaa;
 }
 
-#list_item {
+.list_item {
     padding: 20px 10px;
     border-bottom: solid 1px #eeeeee;
     overflow: hidden;
 }
 
-#list_item #list_img {
+.list_item .list_img {
     float: left;
     width: 32%;
     height: 230px;
 }
 
-#list_item #list_img img {
+.list_item .list_img img {
     width: 100%;
     max-width: 100%;
     max-height: 100%;
 }
 
-#list_item #list_text {
+.list_item .list_text {
     float: right;
     width: 63%;
     height: 230px;
@@ -86,13 +86,13 @@ button[type="submit"] {
     line-height: 2em;
 }
 
-#list_text p.list_sub {
+.list_text p.list_sub {
     padding: 15px 0 10px;
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-#list_text p.list_con {
+.list_text p.list_con {
     margin: 10px 0;
     height: 100px;
     display: -webkit-box;
@@ -106,7 +106,7 @@ button[type="submit"] {
     padding-top: 10px;
 }
 
-#list_text .list_info span {
+.list_text .list_info span {
     margin: 0 10px; 
 }
 

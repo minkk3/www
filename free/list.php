@@ -164,11 +164,11 @@
 	  $num_ripple = mysql_num_rows($result2); //해당 게시글의 댓글
 
 ?>
-			<div id="list_item">
-				<div id="list_img">
+			<div class="list_item">
+				<div class="list_img">
 					<img src="<?= $item_img ?>" alt="">
 				</div>
-				<div id="list_text">
+				<div class="list_text">
 					<span class="hidden"><?= $number ?>.</span>
 					<p class="list_sub"><a href="view.php?table=<?=$table?>&num=<?=$item_num?>&page=<?=$page?>"><?= $item_subject ?></a></p>
 <?

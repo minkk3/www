@@ -64,11 +64,13 @@
                         <ul class="nameBox">
                         <li>
                             <span><i class="fa-solid fa-user"></i></span>
-                            <input type="text" name="name" class="find_input find_name" placeholder="이름을 입력하세요." required>
+                            <label for="name" class="hidden">이름</label>
+                            <input type="text" id="name" name="name" class="find_input find_name" placeholder="이름을 입력하세요." required>
                         </li>
                         <li>
                             <span><i class="fa-solid fa-address-card"></i></span>
-                            <input type="text" name="id" class="find_input find_id" placeholder="아이디를 입력하세요." required>
+                            <label for="id" class="hidden">아이디</label>
+                            <input type="text" id="id" name="id" class="find_input find_id" placeholder="아이디를 입력하세요." required>
                         </li>
                         </ul>
                         <div class="telBox">

@@ -1,5 +1,5 @@
-/* 공지사항- 일반게시판 */
 @charset "utf-8";
+/* 공지사항- 일반게시판 */
 
 .contentArea>p {
     font-size: 1.5em;
@@ -65,38 +65,38 @@ button[type="submit"] {
 }
 
 #list_top_title li,
-#list_item div {
+.list_item div {
     float: left;
     text-align: center;
 }
 
 #list_top_title #list_title1,
 #list_top_title #list_title5,
-#list_item #list_item1,
-#list_item #list_item5 {
+.list_item .list_item1,
+.list_item .list_item5 {
     width: 9%;
 }
 
 #list_top_title #list_title2,
-#list_item #list_item2 {
+.list_item .list_item2 {
     width: 50%;
 }
 
 #list_top_title #list_title3,
 #list_top_title #list_title4,
-#list_item #list_item3,
-#list_item #list_item4 {
+.list_item .list_item3,
+.list_item .list_item4 {
     width: 15%;
 }
 
 
-#list_item {
+.list_item {
     padding: 20px 0;
     border-bottom: solid 1px #eeeeee;
     overflow: hidden;
 }
 
-#list_item #list_item2 {
+.list_item .list_item2 {
     text-align: left;
 }
 

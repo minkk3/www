@@ -7,7 +7,7 @@
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head> 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -232,10 +232,10 @@
                             </select>
                             <span> - </span>
                             <label class="hidden" for="hp2">전화번호중간4자리</label>
-                            <input type="text" class="hp" name="hp2" value="<?= $hp2 ?>">
+                            <input type="text" id="hp2" class="hp" name="hp2" value="<?= $hp2 ?>">
                             <span> - </span>
                             <label class="hidden" for="hp3">전화번호끝4자리</label>
-                            <input type="text" class="hp" name="hp3" value="<?= $hp3 ?>">
+                            <input type="text" id="hp3" class="hp" name="hp3" value="<?= $hp3 ?>">
                         </dd>
                     </dl>
                 </li>
@@ -247,7 +247,7 @@
                             <input type="text" id="email1" name="email1" value="<?= $email1 ?>">
                             <span> @ </span>  
                             <label class="hidden" for="email2">이메일주소</label>
-                            <input type="text" name="email2" value="<?= $email2 ?>">
+                            <input type="text" id="email2" name="email2" value="<?= $email2 ?>">
                         </dd>
                     </dl>
                 </li>

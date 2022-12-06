@@ -161,20 +161,20 @@
 	  $item_subject = str_replace(" ", "&nbsp;", $row[subject]);
 
 ?>
-					<div id="list_item">
-						<div id="list_item1">
+					<div class="list_item">
+						<div class="list_item1">
 							<?= $number ?>
 						</div>
-						<div id="list_item2"><a href="view.php?num=<?=$item_num?>&page=<?=$page?>&scale=<?=$scale?>">
+						<div class="list_item2"><a href="view.php?num=<?=$item_num?>&page=<?=$page?>&scale=<?=$scale?>">
 								<?= $item_subject ?>
 							</a></div>
-						<div id="list_item3">
+						<div class="list_item3">
 							<?= $item_nick ?>
 						</div>
-						<div id="list_item4">
+						<div class="list_item4">
 							<?= $item_date ?>
 						</div>
-						<div id="list_item5">
+						<div class="list_item5">
 							<?= $item_hit ?>
 						</div>
 					</div>

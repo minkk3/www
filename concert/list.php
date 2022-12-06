@@ -177,11 +177,11 @@
 	 }
 
 ?>
-			<div id="list_item">
-				<div id="list_img">
-					<img src="<?= $item_img ?>" alt="">
+			<div class="list_item">
+				<div class="list_img">
+					<img src="<?= $item_img ?>" alt="<?= $item_subject?>">
 				</div>
-				<div id="list_text">
+				<div class="list_text">
 					<p class="list_sub"><a href="view.php?table=<?=$table?>&num=<?=$item_num?>&page=<?=$page?>"><?= $item_subject ?></a></p>
 					<p class="list_con"><?= $item_content?></p>
 					<div class="list_info">
@@ -200,7 +200,7 @@
    	   $number--;
    }
 ?>
-			<div id="page_button">
+			
 			<div id="page_button">
 				<div id="button">
 					<a href="list.php?table=<?=$table?>&page=<?=$page?>">목록</a>&nbsp;

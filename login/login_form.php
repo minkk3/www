@@ -28,11 +28,13 @@
                 <ul>
                     <li>
                         <span><i class="fa-solid fa-user"></i></span>
-                        <input type="text" name="id" class="login_input" placeholder="아이디를 입력하세요." required>
+                        <label for="id" class="hidden">아이디</label>
+                        <input type="text" id="id" name="id" class="login_input" placeholder="아이디를 입력하세요." required>
                     </li>
                     <li>
                         <span><i class="fa-solid fa-lock"></i></span>
-                        <input type="password" name="pass" class="login_input" placeholder="비밀번호를 입력하세요." required>
+                        <label for="pass" class="hidden">비밀번호</label>
+                        <input type="password" id="pass" name="pass" class="login_input" placeholder="비밀번호를 입력하세요." required>
                     </li>
                 </ul>						
             </div>
