@@ -83,7 +83,7 @@
 			<a class="current" href="../greet/list.php">공지사항</a>
 		</li>
 		<li>
-      	  <a href="./sub6_3.html">동아위드</a>
+      	  <a href="../free/list.php">동아위드</a>
      	 </li>
 		<li><a href="../sub6/sub6_3.html">문의하기</a></li>
 		</ul>
